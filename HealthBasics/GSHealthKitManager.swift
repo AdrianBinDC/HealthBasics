@@ -18,7 +18,7 @@ class GSHealthKitManager: NSObject {
         // TODO: fill in
     }
     
-    func readBirthDate() -> NSDate {
+    func readBirthDate() -> NSDate? {
         var dateOfBirth: NSDate?
         
         do {
@@ -27,7 +27,7 @@ class GSHealthKitManager: NSObject {
             print(error)
         }
         
-        return dateOfBirth!
+        return dateOfBirth
     }
     
     func writeWeightSample(weight: Double) {
