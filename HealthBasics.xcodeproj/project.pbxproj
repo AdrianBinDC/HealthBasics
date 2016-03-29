@@ -14,6 +14,7 @@
 		55B53D7C1CAA1FBB00F985C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55B53D7B1CAA1FBB00F985C3 /* Assets.xcassets */; };
 		55B53D7F1CAA1FBB00F985C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55B53D7D1CAA1FBB00F985C3 /* LaunchScreen.storyboard */; };
 		55B53D881CAA203900F985C3 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B53D871CAA203900F985C3 /* HealthKit.framework */; };
+		55B53D901CAA28A400F985C3 /* GSHealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B53D8F1CAA28A400F985C3 /* GSHealthKitManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		55B53D801CAA1FBB00F985C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55B53D861CAA203800F985C3 /* HealthBasics.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = HealthBasics.entitlements; sourceTree = "<group>"; };
 		55B53D871CAA203900F985C3 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		55B53D8F1CAA28A400F985C3 /* GSHealthKitManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSHealthKitManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		55B53D8B1CAA20DC00F985C3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				55B53D8F1CAA28A400F985C3 /* GSHealthKitManager.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			files = (
 				55B53D771CAA1FBB00F985C3 /* SecondViewController.swift in Sources */,
 				55B53D731CAA1FBB00F985C3 /* AppDelegate.swift in Sources */,
+				55B53D901CAA28A400F985C3 /* GSHealthKitManager.swift in Sources */,
 				55B53D751CAA1FBB00F985C3 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
