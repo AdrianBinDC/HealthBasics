@@ -61,16 +61,48 @@
 		55B53D711CAA1FBB00F985C3 /* HealthBasics */ = {
 			isa = PBXGroup;
 			children = (
-				55B53D861CAA203800F985C3 /* HealthBasics.entitlements */,
 				55B53D721CAA1FBB00F985C3 /* AppDelegate.swift */,
-				55B53D741CAA1FBB00F985C3 /* FirstViewController.swift */,
-				55B53D761CAA1FBB00F985C3 /* SecondViewController.swift */,
-				55B53D781CAA1FBB00F985C3 /* Main.storyboard */,
+				55B53D8B1CAA20DC00F985C3 /* Model */,
+				55B53D8A1CAA20D600F985C3 /* View */,
+				55B53D891CAA20CF00F985C3 /* Controller */,
+				55B53D8C1CAA20FD00F985C3 /* Supporting Files */,
 				55B53D7B1CAA1FBB00F985C3 /* Assets.xcassets */,
-				55B53D7D1CAA1FBB00F985C3 /* LaunchScreen.storyboard */,
 				55B53D801CAA1FBB00F985C3 /* Info.plist */,
 			);
 			path = HealthBasics;
+			sourceTree = "<group>";
+		};
+		55B53D891CAA20CF00F985C3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				55B53D741CAA1FBB00F985C3 /* FirstViewController.swift */,
+				55B53D761CAA1FBB00F985C3 /* SecondViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		55B53D8A1CAA20D600F985C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55B53D781CAA1FBB00F985C3 /* Main.storyboard */,
+				55B53D7D1CAA1FBB00F985C3 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		55B53D8B1CAA20DC00F985C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		55B53D8C1CAA20FD00F985C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55B53D861CAA203800F985C3 /* HealthBasics.entitlements */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,6 +336,7 @@
 				55B53D851CAA1FBB00F985C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
